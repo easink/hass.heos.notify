@@ -7,7 +7,7 @@ from homeassistant.components.notify import (BaseNotificationService, DOMAIN)
 from homeassistant.const import (CONF_HOST, CONF_NAME)
 from homeassistant.helpers import validate_config
 
-REQUIREMENTS = ['https://github.com/andryd/heos/archive/v0.0.1.zip#heos==0.0.1',
+REQUIREMENTS = ['https://github.com/andryd/heos/archive/master.zip',
                 'gTTS']
 
 _LOGGER = logging.getLogger(__name__)
